@@ -59,5 +59,5 @@ Haz un programa concurrente que "lance" 8 excavadoras a la vez y termine en cuan
 
 ## Recursos
 
-[Ejecucción Concurrente - Documentación oficial de Python](https://docs.python.org/3/library/concurrency.html)
-[Hilos en Python - pythontutorial.net](https://www.pythontutorial.net/python-concurrency/python-threading/)
+- [Ejecucción Concurrente - Documentación oficial de Python](https://docs.python.org/3/library/concurrency.html)
+- [Hilos en Python - pythontutorial.net](https://www.pythontutorial.net/python-concurrency/python-threading/)
