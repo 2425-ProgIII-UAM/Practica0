@@ -39,9 +39,10 @@ Este ejercicio pretende utilizar la programación concurrente para mejorar el re
 
 ### La excavadora
 
-Primero, programa una función `excavadora`, que reciba por parámetro unas coordenadas en forma de tupla de dos elementos y devuelva otra tupla "cercana" cuyo hash termine por 6 ceros. Antes de terminar, la función excavadora imprimirá por consola el número de iteraciones realizadas. Si la función excavadora ha realizado `n` comprobaciones, la distancia `Manhattan` entre las coordenadas de origen y las devueltas por la función no deben ser superiores a `n`. Es decir, si '(a,b) = '
+Primero, programa una función `excavadora`, que reciba por parámetro unas coordenadas en forma de tupla de dos elementos y devuelva otra tupla "cercana" cuyo hash termine por 6 ceros. Antes de terminar, la función excavadora imprimirá por consola el número de iteraciones realizadas. Si la función excavadora ha realizado `n` comprobaciones, la distancia `Manhattan` entre las coordenadas de origen y las devueltas por la función no deben ser superiores a `n`. Es decir, una función tal que si `(a,b) = excavadora((c,d))` entonces:
 
-es decir, una función tal que si `(a,b) = excavadora((c,d))` entonces `1000000 % hash((a,b))` es igual a `0` y `abs(a-c) + abs(b-d)` es menor o igual al número de ciclos que se han ejecutado.
+  1. `1000000 % hash((a,b))` es igual a `0` y
+  2. `abs(a-c) + abs(b-d)` es menor o igual al número de ciclos que se han ejecutado.
 
 ### Las excavadoras
 
