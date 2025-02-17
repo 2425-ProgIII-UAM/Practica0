@@ -50,6 +50,8 @@ Escribe primero un programa que ejecute de forma secuencial 8 excavadoras a la v
 
 Después, utilizando hilos de ejecución, haz un programa que ejecute las 8 excavadoras de forma concurrente.
 
+*pista:* Utilizad distintas coordenadas de inicio, e intenta que vuestras escavadoras cubran regiones diferentes para obtener distintas coordenadas con hashes dorados.
+
 **Pregunta** ¿hay alguna mejora en el rendimiento?
 
 ### El concurso
@@ -57,6 +59,12 @@ Después, utilizando hilos de ejecución, haz un programa que ejecute las 8 exca
 Haz un programa concurrente que "lance" 8 excavadoras a la vez y termine en cuanto una excavadora encuentre un hash dorado.
 
 **Pregunta** De media, ¿tarda más o menos este programa en encontrar un hash dorado que cuando teníamos una sola excavadora? ¿por qué?
+
+## Extensión opcional (obligatoria para grupos de tres personas)
+
+Utiliza [concurrencia basada en procesos](https://docs.python.org/3/library/multiprocessing.html) para mejorar el rendimiento del programa "Las Excavadoras" explicado anteriormente. No es necesario que haya sincronización o colaboración entre los procesos, es decir, podéis programar un programa que utilize 8 procesos distintos para encontrar 8 hashes dorados.
+
+¿Es cierto que mejora el rendimiento? ¿Cuál es el motivo?
 
 ## Recursos
 
